@@ -94,7 +94,7 @@ async def update_info():
 
         if next_rebase_secs <= 600:
             webhook = discord.Webhook.from_url(
-                os.environ["https://discord.com/api/webhooks/907835961763844177/rnpYuMKOuVWfKK9Ng8pBpNu_bQNuOadxlilfeNWJATfVDuOj-tk6fskC-g7YxdNDNHCS"],
+                os.environ[https://discord.com/api/webhooks/907835961763844177/rnpYuMKOuVWfKK9Ng8pBpNu_bQNuOadxlilfeNWJATfVDuOj-tk6fskC-g7YxdNDNHCS],
                 adapter=discord.RequestsWebhookAdapter()
             )
             webhook.send(
